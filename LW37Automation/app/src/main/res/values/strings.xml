@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LW37Automation</string>
+    <string name="accessibility_description">Automates officer application approvals and denials.</string>
+    <string name="enter_tag">Enter tag</string>
+    <string name="add">Add</string>
+    <string name="remove">Remove</string>
+    <string name="start_automation">Start Automation</string>
+</resources>
+
