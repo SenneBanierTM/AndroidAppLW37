@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/floating_ui_background"
+    android:padding="16dp">
+
+    <!-- Start Button -->
+    <ImageButton
+        android:id="@+id/btnStart"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/start"
+        android:background="@null"
+        android:contentDescription="@string/start"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Settings Button -->
+    <ImageButton
+        android:id="@+id/btnSettings"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/settings"
+        android:background="@null"
+        android:contentDescription="@string/settings"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Stop Button -->
+    <ImageButton
+        android:id="@+id/btnStop"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/stop"
+        android:background="@null"
+        android:contentDescription="@string/stop"
+        android:layout_marginBottom="8dp" />
+</LinearLayout>

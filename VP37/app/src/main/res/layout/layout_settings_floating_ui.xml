@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/floating_ui_background"
+    android:padding="16dp">
+
+    <!-- Plus Button -->
+    <ImageButton
+        android:id="@+id/btnPlus"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/plus"
+        android:background="@null"
+        android:contentDescription="@string/plus"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Minus Button -->
+    <ImageButton
+        android:id="@+id/btnMinus"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/minus"
+        android:background="@null"
+        android:contentDescription="@string/minus"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Swipe Button -->
+    <ImageButton
+        android:id="@+id/btnCurve"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/swipe"
+        android:background="@null"
+        android:contentDescription="@string/curve"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Return Button -->
+    <ImageButton
+        android:id="@+id/btnReturn"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/back"
+        android:background="@null"
+        android:contentDescription="@string/back"
+        android:layout_marginBottom="8dp" />
+</LinearLayout>

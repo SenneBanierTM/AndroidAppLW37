@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">VP37</string>
+    <string name="add">Add</string>
+    <string name="floating_ui">Floating UI</string>
+    <string name="add_tag_title">Add Tag</string>
+    <string name="tag_hint">Enter tag</string>
+    <string name="add_button">Add</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="tag_empty_error">Tag cannot be empty!</string>
+    <string name="tag_removed_message">Tag removed: %1$s</string>
+    <string name="floating_ui_coming_soon">Floating UI feature coming soon!</string>
+    <string name="overlay_permission_request">Please enable overlay permissions for this feature.</string>
+    <string name="start_clicked_message">Start clicked</string>
+    <string name="settings_clicked_message">Settings clicked</string>
+
+    <!-- First Floating UI -->
+    <string name="start">Start automation</string>
+    <string name="settings">Open settings</string>
+    <string name="stop">Stop automation</string>
+
+    <!-- Second Floating UI -->
+    <string name="plus">Add a click position</string>
+    <string name="minus">Remove the last click position</string>
+    <string name="curve">Add a swipe motion</string>
+    <string name="back">Return to main menu</string>
+</resources>
